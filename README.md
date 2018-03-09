@@ -1,14 +1,10 @@
 # TDLSTM
 
 req:
-
-glove embeding file: pip install glove_python
-
-sswe embeding file
-
-python 3
-
-tensorflow
+- glove embeding file: pip install glove_python
+- sswe embeding file
+- python 3
+- tensorflow
 
 # train file description
 every instance include four lines:
