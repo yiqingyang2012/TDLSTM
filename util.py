@@ -53,9 +53,6 @@ def loadDataSet(word_to_id, file, FLAGS):
 			left = ['<BOS>']
 		else:
 			left = line4[0].strip().split(' ')
-			#print (chardet.detect(left[1]))
-			print (chardet.detect(stopwords_eng[1]))
-			exit(0)
 			left = ['<BOS>'] + [w for w in left if w not in stopwords_eng]
 		leftLen = len(left)
 		left = wordToId(left, word_to_id, 0, FLAGS)
